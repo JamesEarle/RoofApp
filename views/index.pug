@@ -1,5 +1,18 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div
+    p Connect your account to see your address
+    span(id="address")
+    br
+    button(id="connectAccount") Connect
+    br
+  div 
+    p Try the "set" method (auto to 23 for now)
+    span(id="set")
+    button(id="setButton") Set 23
+
+    p Now try get 
+    span(id="get")
+    button(id="getButton") Get
+
