@@ -10,7 +10,6 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}",
-            "runtimeArgs": ["--load-extension=${workspaceFolder}\\MetaMaskExtension9.2.0_0\\manifest.json"]
         },
         {
             "type": "chrome",

@@ -2,14 +2,14 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
-}
-
 #nav-img {
   width: 70px;
 }
 
 #container {
   padding: 25px 50px;
+}
+
+.text-end {
+  display: contents;
 }
