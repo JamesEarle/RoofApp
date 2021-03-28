@@ -2,10 +2,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-form {
-  width: 100%;
-}
-
 #nav-img {
   width: 70px;
 }
@@ -20,3 +16,28 @@ form {
   margin-right: 10px;
 }
 
+.center-form {
+  width: 100%;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1116px !important;
+  }
+}
+
+.col-md-8 {
+  width: 100% !important;
+}
+
+.mb-3 {
+  margin-top: 15px;
+}
+
+.submit {
+  max-width: 50%;
+}
+
+.submit-div {
+  max-width: 100%;
+}
