@@ -2,6 +2,10 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+form {
+  width: 100%;
+}
+
 #nav-img {
   width: 70px;
 }
@@ -12,4 +16,7 @@ body {
 
 .text-end {
   display: contents;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
